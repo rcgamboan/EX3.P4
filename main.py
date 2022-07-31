@@ -1,15 +1,15 @@
 import sys
 import manejador
 
-# cliente que usa las funciones definidas en eval y mostrar
-# para trabajar con expresiones booleanas
+# cliente que usa las funciones definidas en manejador
+# para simular un manejador de tablas de métodos virtuales 
 
 print("\n\nManejador de tipos de datos")
 print("\nA continuacion indique la operacion que quiere realizar")
 print("\nLas operaciones disponibles son las siguientes: ")
 print("\nCLASS     <tipo> [<nombre>] Deﬁne un nuevo tipo que poseerá métodos con nombres establecidos en la lista ")
 print("\nDESCRIBIR <nombre> Muestra la tabla de métodos virtuales para el tipo con el nombre propuesto.")
-print("\nSALIR                         Termina la ejecucion del programa\n")
+print("\nSALIR     Termina la ejecucion del programa\n")
 while True:
 
     comando = input("main> ")
